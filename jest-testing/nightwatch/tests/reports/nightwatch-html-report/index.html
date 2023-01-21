@@ -1,0 +1,819 @@
+  <head>
+    <title>Nightwatch Reporter</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <div id="wrap">
+      <div id="main">
+        <section id="navigation">
+          <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg">
+              <a class="navbar-brand" href="https://nightwatchjs.org" target="_blank"><div class="logo"></div></a>
+            </nav>
+          </div>
+        </section>
+        <section id="auxbar">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="auxcol col-md-4 align-items-center">
+                <div class="auxcontainer">
+                  <div class="auxbox autobox">
+                  </div>
+                </div>
+              </div>
+              <div class="auxcol col-md-4 align-items-center">
+                <div class="auxcontainer align-h-center">
+                  <h1>Nightwatch.js – <strong>Test Report</strong></h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section id="sessions">
+          <div class="row">
+          <div class="col-md-12">
+          <div class="container-fluid">
+            
+                <div id="s1" class="sessionbox">
+                   
+  <div class="sessionbox-indicator indicator-failed sessionbox-padding">
+    <div class="row">
+      <div class="col-md-1">
+        <div class="statusbadge statusbadge-failed">Failure</div>
+      </div> 
+      
+      <div class="col-md-11 separator-l">
+        <div class="row sessionbox-head">
+          <div class="col-md-8">
+             about
+          </div>
+        </div>
+        <div id="tabs-s1" class="row sessionbox-tabs">
+          <div class="col-md-12">
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab1" role="tablist">
+                <a class="nav-item nav-link active" id="nav-s1-t1-tab" data-bs-toggle="tab" href="#nav-s1-t1" role="tab" aria-controls="nav-s1-t1" aria-selected="true">Details</a>
+                <a class="nav-item nav-link" id="nav-s1-t3-tab" data-bs-toggle="tab" href="#nav-s1-t3" role="tab" aria-controls="nav-s1-t3" aria-selected="true">Raw HTTP Log</a>
+              </div>
+            </nav>
+
+            <div class="tab-content" id="nav-tab1Content">
+              <div class="tab-pane show active" id="nav-s1-t1" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="statgroup autobox">
+                      <div class="statbox autobox">
+                        <div class="label-sessionfull">Status</div>
+                        <div class="stat-sessionfull">FAILED</div>
+                      </div>
+                    </div>
+                    <div class="statgroup autobox">
+                     <div class="statbox autobox">
+                       <div class="label-sessionfull">Tests</div>
+                       <div class="stat-sessionfull">1</div>
+                     </div>
+                     <div class="statbox autobox">
+                      <div class="label-sessionfull">Failed</div>
+                      <div class="stat-sessionfull">19</div>
+                    </div>
+                    <div class="statbox autobox">
+                      <div class="label-sessionfull">Errors</div>
+                      <div class="stat-sessionfull">0</div>
+                    </div>
+                    <div class="statbox autobox">
+                      <div class="label-sessionfull">Module Path</div>
+                      <div class="stat-sessionfull">\tests\e2e\about.js</div>
+                    </div>
+                    </div>
+                    <div class="statgroup autobox">
+                      <div class="statbox autobox">
+                        <div class="label-sessionfull">Duration</div>
+                        <div class="stat-sessionfull">10.98 secs</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane raw-http-log" id="nav-s1-t3" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="raw-http-log code-sessionfull"></div>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div id="sessionfull-accordion">
+            
+                <div class="card">
+  
+  <div class="card-header" id="h2">
+    <h5 class="mb-0">
+      <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#s0ac1" aria-expanded="true" aria-controls="s0ac1">
+        Structure de la page à propos
+      </button>
+    </h5>
+  </div>
+  <div id="s0ac1" class="collapse-show collapse show" aria-labelledby="s0ah1" data-bs-parent="#sessionfull-accordion">
+    <div class="card-body"><pre><div class="code-sessionfull-failure">✖ L&#39;entête existe sur la page in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (538ms)
+    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:9:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\about.js:13:12)</div><div class="code-sessionfull-failure">✖ Le menu de navigation existe dans l&#39;entête in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (554ms)
+    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:10:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\about.js:13:12)</div><div class="code-sessionfull-failure">✖ Le menu de navigation a l&#39;id &#39;nav-bar&#39; in 500ms - expected &#34;contains &#39;nav-bar&#39;&#34; but got: &#34;element could not be located&#34; (549ms)
+    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:14:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\about.js:13:12)</div><div class="code-sessionfull-failure">✖ Le menu de navigation a la classe &#39;flex-column&#39; in 500ms - expected &#34;has flex-column&#34; but got: &#34;element could not be located&#34; (534ms)
+    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:20:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\about.js:13:12)</div><div class="code-sessionfull-failure">✖ Le menu de navigation contient une liste in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (2502ms)
+    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:25:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\about.js:13:12)</div><div class="code-sessionfull-failure">✖ La liste a la classe &#39;flex-column&#39; in 500ms - expected &#34;has flex-column&#34; but got: &#34;element could not be located&#34; (526ms)
+    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:29:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\about.js:13:12)</div><div class="code-sessionfull-failure">✖ Failed [equal]: (Le menu de navigation doit comporter 3 liens.) - expected &#34;3&#34; but got: &#34;0&#34; (0ms)
+    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:37:22)</div><div class="code-sessionfull-failure">✖ L&#39;élément &#39;main&#39; est présent sur la page in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (560ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\about.js:15:20)</div><div class="code-sessionfull-failure">✖ L&#39;élément &#39;main&#39; a l&#39;id &#39;main-area&#39; in 500ms - expected &#34;contains &#39;main-area&#39;&#34; but got: &#34;element could not be located&#34; (546ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\about.js:19:20)</div><div class="code-sessionfull-failure">✖ L&#39;élément &#39;main&#39; a la classe &#39;flex-column&#39; in 500ms - expected &#34;has flex-column&#34; but got: &#34;element could not be located&#34; (522ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\about.js:25:20)</div><div class="code-sessionfull-failure">✖ Une section est présente sur la page.  in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (551ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\about.js:30:20)</div><div class="code-sessionfull-failure">✖ L&#39;élément &#39;section&#39; a les classes &#39;flex-column&#39; et &#39;align-center&#39; in 500ms - expected &#34;has flex-column align-center&#34; but got: &#34;element could not be located&#34; (535ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\about.js:34:20)</div><div class="code-sessionfull-failure">✖ Un titre est présent sur la page in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (554ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\about.js:39:20)</div><div class="code-sessionfull-failure">✖ Un paragraphe est présent sur la page in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (553ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\about.js:43:20)</div><div class="code-sessionfull-failure">✖ Une liste est présente sur la page in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (551ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\about.js:47:20)</div><div class="code-sessionfull-failure">✖ Failed [equal]: (La liste doit contenir 6 raccourcis) - expected &#34;6&#34; but got: &#34;0&#34; (0ms)
+    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\about.js:52:22)</div><div class="code-sessionfull-failure">✖ Le pied de page existe in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (552ms)
+    at Object.validateFooter (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:73:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\about.js:58:12)</div><div class="code-sessionfull-failure">✖ L&#39;élément &#39;footer&#39; a l&#39;id &#39;playing-bar&#39; in 500ms - expected &#34;contains &#39;playing-bar&#39;&#34; but got: &#34;element could not be located&#34; (530ms)
+    at Object.validateFooter (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:74:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\about.js:58:12)</div><div class="code-sessionfull-failure">✖ Failed [equal]: (Le pied de page doit contenir 2 noms) - expected &#34;2&#34; but got: &#34;0&#34; (0ms)
+    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:81:22)</div></pre></div>
+  </div>
+  
+</div>
+              
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+                
+                <div id="s2" class="sessionbox">
+                   
+  <div class="sessionbox-indicator indicator-failed sessionbox-padding">
+    <div class="row">
+      <div class="col-md-1">
+        <div class="statusbadge statusbadge-failed">Failure</div>
+      </div> 
+      
+      <div class="col-md-11 separator-l">
+        <div class="row sessionbox-head">
+          <div class="col-md-8">
+             playlist
+          </div>
+        </div>
+        <div id="tabs-s2" class="row sessionbox-tabs">
+          <div class="col-md-12">
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab1" role="tablist">
+                <a class="nav-item nav-link active" id="nav-s2-t1-tab" data-bs-toggle="tab" href="#nav-s2-t1" role="tab" aria-controls="nav-s2-t1" aria-selected="true">Details</a>
+                <a class="nav-item nav-link" id="nav-s2-t3-tab" data-bs-toggle="tab" href="#nav-s2-t3" role="tab" aria-controls="nav-s2-t3" aria-selected="true">Raw HTTP Log</a>
+              </div>
+            </nav>
+
+            <div class="tab-content" id="nav-tab1Content">
+              <div class="tab-pane show active" id="nav-s2-t1" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="statgroup autobox">
+                      <div class="statbox autobox">
+                        <div class="label-sessionfull">Status</div>
+                        <div class="stat-sessionfull">FAILED</div>
+                      </div>
+                    </div>
+                    <div class="statgroup autobox">
+                     <div class="statbox autobox">
+                       <div class="label-sessionfull">Tests</div>
+                       <div class="stat-sessionfull">2</div>
+                     </div>
+                     <div class="statbox autobox">
+                      <div class="label-sessionfull">Failed</div>
+                      <div class="stat-sessionfull">23</div>
+                    </div>
+                    <div class="statbox autobox">
+                      <div class="label-sessionfull">Errors</div>
+                      <div class="stat-sessionfull">1</div>
+                    </div>
+                    <div class="statbox autobox">
+                      <div class="label-sessionfull">Module Path</div>
+                      <div class="stat-sessionfull">\tests\e2e\playlist.js</div>
+                    </div>
+                    </div>
+                    <div class="statgroup autobox">
+                      <div class="statbox autobox">
+                        <div class="label-sessionfull">Duration</div>
+                        <div class="stat-sessionfull">11.76 secs</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane raw-http-log" id="nav-s2-t3" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="raw-http-log code-sessionfull"></div>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div id="sessionfull-accordion">
+            
+                <div class="card">
+  
+  <div class="card-header" id="h2">
+    <h5 class="mb-0">
+      <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#s1ac1" aria-expanded="true" aria-controls="s1ac1">
+        Structure de la page
+      </button>
+    </h5>
+  </div>
+  <div id="s1ac1" class="collapse-show collapse show" aria-labelledby="s1ah1" data-bs-parent="#sessionfull-accordion">
+    <div class="card-body"><pre><div class="code-sessionfull-failure">✖ L&#39;entête existe sur la page in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (553ms)
+    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:9:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\playlist.js:34:12)</div><div class="code-sessionfull-failure">✖ Le menu de navigation existe dans l&#39;entête in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (553ms)
+    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:10:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\playlist.js:34:12)</div><div class="code-sessionfull-failure">✖ Le menu de navigation a l&#39;id &#39;nav-bar&#39; in 500ms - expected &#34;contains &#39;nav-bar&#39;&#34; but got: &#34;element could not be located&#34; (533ms)
+    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:14:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\playlist.js:34:12)</div><div class="code-sessionfull-failure">✖ Le menu de navigation a la classe &#39;flex-column&#39; in 500ms - expected &#34;has flex-column&#34; but got: &#34;element could not be located&#34; (534ms)
+    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:20:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\playlist.js:34:12)</div><div class="code-sessionfull-failure">✖ Le menu de navigation contient une liste in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (540ms)
+    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:25:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\playlist.js:34:12)</div><div class="code-sessionfull-failure">✖ La liste a la classe &#39;flex-column&#39; in 500ms - expected &#34;has flex-column&#34; but got: &#34;element could not be located&#34; (535ms)
+    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:29:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\playlist.js:34:12)</div><div class="code-sessionfull-failure">✖ Failed [equal]: (Le menu de navigation doit comporter 3 liens.) - expected &#34;3&#34; but got: &#34;0&#34; (1ms)
+    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:37:22)</div><div class="code-sessionfull-failure">✖ L&#39;élément &#39;main&#39; est présent sur la page in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (546ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\playlist.js:36:20)</div><div class="code-sessionfull-failure">✖ L&#39;élément &#39;main&#39; doit avoir la classe &#39;flex-column&#39; in 500ms - expected &#34;has flex-column&#34; but got: &#34;element could not be located&#34; (533ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\playlist.js:40:20)</div><div class="code-sessionfull-failure">✖ Un élément &#39;div&#39; avec comme id &#39;songs-list&#39; doit être présent à l&#39;intérieur de l&#39;élément main in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (550ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\playlist.js:45:20)</div><div class="code-sessionfull-failure">✖ Le pied de page existe in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (560ms)
+    at Object.validateFooter (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:73:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\playlist.js:49:12)</div><div class="code-sessionfull-failure">✖ L&#39;élément &#39;footer&#39; a l&#39;id &#39;playing-bar&#39; in 500ms - expected &#34;contains &#39;playing-bar&#39;&#34; but got: &#34;element could not be located&#34; (535ms)
+    at Object.validateFooter (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:74:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\playlist.js:49:12)</div><div class="code-sessionfull-failure">✖ Failed [equal]: (Le pied de page doit contenir 2 noms) - expected &#34;2&#34; but got: &#34;0&#34; (0ms)
+    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:81:22)</div></pre></div>
+  </div>
+  
+</div>
+              
+                <div class="card">
+  
+  <div class="card-header" id="h2">
+    <h5 class="mb-0">
+      <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#s1ac2" aria-expanded="true" aria-controls="s1ac2">
+        Tests de l&#39;entête du contenu principal
+      </button>
+    </h5>
+  </div>
+  <div id="s1ac2" class="collapse-show collapse show" aria-labelledby="s1ah2" data-bs-parent="#sessionfull-accordion">
+    <div class="card-body"><pre><div class="code-sessionfull-failure">✖ Un élément &#39;header&#39; avec comme id &#39;playlist-header&#39; doit être présent à l&#39;intérieur de l&#39;élément div#songs-list in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (549ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\playlist.js:53:20)</div><div class="code-sessionfull-failure">✖ L&#39;élément &#39;header&#39; avec comme id &#39;playlist-header&#39; doit avoir la classe &#39;flex-row&#39; in 500ms - expected &#34;has flex-row&#34; but got: &#34;element could not be located&#34; (528ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\playlist.js:57:20)</div><div class="code-sessionfull-failure">✖ Il doit y avoir un élément &#39;img&#39; présent à l&#39;intérieur de l&#39;élément &#39;header&#39; précédent in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (544ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\playlist.js:62:20)</div><div class="code-sessionfull-failure">✖ La largeur de l&#39;image doit être de 80px in 500ms - expected &#34;contains &#39;80px&#39;&#34; but got: &#34;element could not be located&#34; (539ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\playlist.js:66:20)</div><div class="code-sessionfull-failure">✖ La hauteur de l&#39;image doit être de 80px in 500ms - expected &#34;contains &#39;80px&#39;&#34; but got: &#34;element could not be located&#34; (533ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\playlist.js:72:20)</div><div class="code-sessionfull-failure">✖ Un élément &#39;h1&#39; doit être présent l&#39;élément &#39;img&#39; et doit avoir l&#39;id &#39;playlist-title&#39;  in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (550ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\playlist.js:78:20)</div><div class="code-sessionfull-failure">✖ Un élément &#39;a&#39; doit être présent après l&#39;élément &#39;h1&#39; et doit avoir l&#39;id &#39;playlist-edit&#39; in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (537ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\playlist.js:82:20)</div><div class="code-sessionfull-failure">✖ L&#39;élément &#39;a&#39; doit contenir un attribut &#39;href&#39; ayant comme valeur &#39;./create_playlist.html&#39; in 500ms - expected &#34;contains &#39;./create_playlist.html&#39;&#34; but got: &#34;element could not be located&#34; (530ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\playlist.js:86:20)</div><div class="code-sessionfull-failure">✖ Il doit y avoir un élément &#39;i&#39; à l&#39;intérieur de l&#39;élément a précédent in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (567ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\playlist.js:92:20)</div><div class="code-sessionfull-failure">✖ La classe de l&#39;élément &#39;i&#39; doit être &#39;fa fa-2x fa-pencil&#39; in 500ms - expected &#34;has fa fa-2x fa-pencil&#34; but got: &#34;element could not be located&#34; (530ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\playlist.js:96:20)</div></pre></div>
+  </div>
+  
+</div>
+              
+             
+               <div class="card">
+      <div class="card-header" id="h2">
+        <h5 class="mb-0">
+          <button class="btn btn-link" style="background-image:none">
+            Tests du contenu principal de la page
+            <span class ="float-right">
+              <a href="#" class="btn btn-sm btn-secondary disabled" role="button" style="font-size: 0.65em">skipped</a>
+            </span>
+          </button>
+        </h5>
+    </div>
+</div>
+             
+               <div class="card">
+      <div class="card-header" id="h2">
+        <h5 class="mb-0">
+          <button class="btn btn-link" style="background-image:none">
+            Tests de la barre de lecture de musique
+            <span class ="float-right">
+              <a href="#" class="btn btn-sm btn-secondary disabled" role="button" style="font-size: 0.65em">skipped</a>
+            </span>
+          </button>
+        </h5>
+    </div>
+</div>
+             
+               <div class="card">
+      <div class="card-header" id="h2">
+        <h5 class="mb-0">
+          <button class="btn btn-link" style="background-image:none">
+            validation de la playlist #0
+            <span class ="float-right">
+              <a href="#" class="btn btn-sm btn-secondary disabled" role="button" style="font-size: 0.65em">skipped</a>
+            </span>
+          </button>
+        </h5>
+    </div>
+</div>
+             
+               <div class="card">
+      <div class="card-header" id="h2">
+        <h5 class="mb-0">
+          <button class="btn btn-link" style="background-image:none">
+            validation de la playlist #1
+            <span class ="float-right">
+              <a href="#" class="btn btn-sm btn-secondary disabled" role="button" style="font-size: 0.65em">skipped</a>
+            </span>
+          </button>
+        </h5>
+    </div>
+</div>
+             
+               <div class="card">
+      <div class="card-header" id="h2">
+        <h5 class="mb-0">
+          <button class="btn btn-link" style="background-image:none">
+            validation de la playlist #2
+            <span class ="float-right">
+              <a href="#" class="btn btn-sm btn-secondary disabled" role="button" style="font-size: 0.65em">skipped</a>
+            </span>
+          </button>
+        </h5>
+    </div>
+</div>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+                
+                <div id="s3" class="sessionbox">
+                   
+  <div class="sessionbox-indicator indicator-failed sessionbox-padding">
+    <div class="row">
+      <div class="col-md-1">
+        <div class="statusbadge statusbadge-failed">Failure</div>
+      </div> 
+      
+      <div class="col-md-11 separator-l">
+        <div class="row sessionbox-head">
+          <div class="col-md-8">
+             create_playlist
+          </div>
+        </div>
+        <div id="tabs-s3" class="row sessionbox-tabs">
+          <div class="col-md-12">
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab1" role="tablist">
+                <a class="nav-item nav-link active" id="nav-s3-t1-tab" data-bs-toggle="tab" href="#nav-s3-t1" role="tab" aria-controls="nav-s3-t1" aria-selected="true">Details</a>
+                <a class="nav-item nav-link" id="nav-s3-t3-tab" data-bs-toggle="tab" href="#nav-s3-t3" role="tab" aria-controls="nav-s3-t3" aria-selected="true">Raw HTTP Log</a>
+              </div>
+            </nav>
+
+            <div class="tab-content" id="nav-tab1Content">
+              <div class="tab-pane show active" id="nav-s3-t1" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="statgroup autobox">
+                      <div class="statbox autobox">
+                        <div class="label-sessionfull">Status</div>
+                        <div class="stat-sessionfull">FAILED</div>
+                      </div>
+                    </div>
+                    <div class="statgroup autobox">
+                     <div class="statbox autobox">
+                       <div class="label-sessionfull">Tests</div>
+                       <div class="stat-sessionfull">2</div>
+                     </div>
+                     <div class="statbox autobox">
+                      <div class="label-sessionfull">Failed</div>
+                      <div class="stat-sessionfull">31</div>
+                    </div>
+                    <div class="statbox autobox">
+                      <div class="label-sessionfull">Errors</div>
+                      <div class="stat-sessionfull">0</div>
+                    </div>
+                    <div class="statbox autobox">
+                      <div class="label-sessionfull">Module Path</div>
+                      <div class="stat-sessionfull">\tests\e2e\create_playlist.js</div>
+                    </div>
+                    </div>
+                    <div class="statgroup autobox">
+                      <div class="statbox autobox">
+                        <div class="label-sessionfull">Duration</div>
+                        <div class="stat-sessionfull">15.03 secs</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane raw-http-log" id="nav-s3-t3" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="raw-http-log code-sessionfull"></div>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div id="sessionfull-accordion">
+            
+                <div class="card">
+  
+  <div class="card-header" id="h2">
+    <h5 class="mb-0">
+      <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#s2ac1" aria-expanded="true" aria-controls="s2ac1">
+        Structure de la page Créer une Playlist
+      </button>
+    </h5>
+  </div>
+  <div id="s2ac1" class="collapse-show collapse show" aria-labelledby="s2ah1" data-bs-parent="#sessionfull-accordion">
+    <div class="card-body"><pre><div class="code-sessionfull-failure">✖ L&#39;entête existe sur la page in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (553ms)
+    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:9:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\create_playlist.js:13:12)</div><div class="code-sessionfull-failure">✖ Le menu de navigation existe dans l&#39;entête in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (555ms)
+    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:10:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\create_playlist.js:13:12)</div><div class="code-sessionfull-failure">✖ Le menu de navigation a l&#39;id &#39;nav-bar&#39; in 500ms - expected &#34;contains &#39;nav-bar&#39;&#34; but got: &#34;element could not be located&#34; (550ms)
+    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:14:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\create_playlist.js:13:12)</div><div class="code-sessionfull-failure">✖ Le menu de navigation a la classe &#39;flex-column&#39; in 500ms - expected &#34;has flex-column&#34; but got: &#34;element could not be located&#34; (523ms)
+    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:20:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\create_playlist.js:13:12)</div><div class="code-sessionfull-failure">✖ Le menu de navigation contient une liste in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (540ms)
+    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:25:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\create_playlist.js:13:12)</div><div class="code-sessionfull-failure">✖ La liste a la classe &#39;flex-column&#39; in 500ms - expected &#34;has flex-column&#34; but got: &#34;element could not be located&#34; (533ms)
+    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:29:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\create_playlist.js:13:12)</div><div class="code-sessionfull-failure">✖ Failed [equal]: (Le menu de navigation doit comporter 3 liens.) - expected &#34;3&#34; but got: &#34;0&#34; (0ms)
+    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:37:22)</div><div class="code-sessionfull-failure">✖ L&#39;élément &#39;main&#39; est présent sur la page in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (548ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\create_playlist.js:15:20)</div><div class="code-sessionfull-failure">✖ L&#39;élément &#39;main&#39; a l&#39;id &#39;main-area&#39; in 500ms - expected &#34;contains &#39;main-area&#39;&#34; but got: &#34;element could not be located&#34; (533ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\create_playlist.js:19:20)</div><div class="code-sessionfull-failure">✖ L&#39;élément &#39;form&#39; est présent à l&#39;intérieur de l&#39;élément &#39;main&#39; in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (531ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\create_playlist.js:25:20)</div><div class="code-sessionfull-failure">✖ L&#39;élément &#39;form&#39; possède l&#39;id &#39;playlist-form&#39; in 500ms - expected &#34;contains &#39;playlist-form&#39;&#34; but got: &#34;element could not be located&#34; (532ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\create_playlist.js:29:20)</div><div class="code-sessionfull-failure">✖ L&#39;élément &#39;form&#39; a la classe &#39;form-group&#39; in 500ms - expected &#34;has form-group&#34; but got: &#34;element could not be located&#34; (521ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\create_playlist.js:35:20)</div><div class="code-sessionfull-failure">✖ Le pied de page existe in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (562ms)
+    at Object.validateFooter (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:73:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\create_playlist.js:41:12)</div><div class="code-sessionfull-failure">✖ L&#39;élément &#39;footer&#39; a l&#39;id &#39;playing-bar&#39; in 500ms - expected &#34;contains &#39;playing-bar&#39;&#34; but got: &#34;element could not be located&#34; (538ms)
+    at Object.validateFooter (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:74:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\create_playlist.js:41:12)</div><div class="code-sessionfull-failure">✖ Failed [equal]: (Le pied de page doit contenir 2 noms) - expected &#34;2&#34; but got: &#34;0&#34; (0ms)
+    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:81:22)</div></pre></div>
+  </div>
+  
+</div>
+              
+                <div class="card">
+  
+  <div class="card-header" id="h2">
+    <h5 class="mb-0">
+      <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#s2ac2" aria-expanded="true" aria-controls="s2ac2">
+        Tests de l&#39;information générale du playlist
+      </button>
+    </h5>
+  </div>
+  <div id="s2ac2" class="collapse-show collapse show" aria-labelledby="s2ah2" data-bs-parent="#sessionfull-accordion">
+    <div class="card-body"><pre><div class="code-sessionfull-failure">✖ L&#39;élément &#39;div&#39; avec l&#39;id &#39;general-info&#39; est présent dans le formulaire in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (538ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\create_playlist.js:45:20)</div><div class="code-sessionfull-failure">✖ L&#39;élément div avec l&#39;id &#39;general-info&#39; a une classe &#39;flex-row&#39; in 500ms - expected &#34;has flex-row&#34; but got: &#34;element could not be located&#34; (551ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\create_playlist.js:49:20)</div><div class="code-sessionfull-failure">✖ Un élément &#39;fieldset&#39; se situe à l&#39;intérieur du div qui contient l&#39;id &#39;general-info&#39; in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (544ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\create_playlist.js:54:20)</div><div class="code-sessionfull-failure">✖ Les &#39;fieldset&#39; contiennent un élément &#39;legend&#39; in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (554ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\create_playlist.js:58:20)</div><div class="code-sessionfull-failure">✖ Failed [equal]: (Le &#39;fieldset&#39; doit contenir trois div) - expected &#34;3&#34; but got: &#34;0&#34; (0ms)
+    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\create_playlist.js:66:24)</div><div class="code-sessionfull-failure">✖ Les éléments &#39;div&#39; qui se situent à l&#39;intérieur du &#39;fieldset&#39; ont comme classes &#39;form-control flex-row&#39; in 500ms - expected &#34;has form-control flex-row&#34; but got: &#34;element could not be located&#34; (522ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\create_playlist.js:73:20)</div><div class="code-sessionfull-failure">✖ Chaque élément &#39;div&#39; dans le premier fieldset doit contenir un label in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (545ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\create_playlist.js:78:20)</div><div class="code-sessionfull-failure">✖ Failed [equal]: (Il doit y avoir un élément &#39;label&#39; dans chaque élément &#39;div&#39;) - expected &#34;3&#34; but got: &#34;0&#34; (0ms)
+    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\create_playlist.js:86:24)</div><div class="code-sessionfull-failure">✖ description in 500ms - expected &#34;contains &#39;name&#39;&#34; but got: &#34;element could not be located&#34; (522ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\create_playlist.js:93:20)</div><div class="code-sessionfull-failure">✖ Un élément &#39;input&#39; doit avoir comme id &#39;name&#39; in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (555ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\create_playlist.js:102:20)</div><div class="code-sessionfull-failure">✖ L&#39;élément &#39;input&#39; utilisé pour déterminer le nom de la playlist est de type &#39;text&#39; in 500ms - expected &#34;contains &#39;text&#39;&#34; but got: &#34;element could not be located&#34; (532ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\create_playlist.js:107:20)</div><div class="code-sessionfull-failure">✖ Un élément &#39;input&#39; doit avoir comme id &#39;description&#39; in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (547ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\create_playlist.js:113:20)</div><div class="code-sessionfull-failure">✖ L&#39;élément &#39;input&#39; utilisé pour déterminer la description de la playlist est de type &#39;text&#39; in 500ms - expected &#34;contains &#39;text&#39;&#34; but got: &#34;element could not be located&#34; (537ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\create_playlist.js:117:20)</div><div class="code-sessionfull-failure">✖ Un élément &#39;input&#39; utilisé doit avoir comme id &#39;image&#39; in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (555ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\create_playlist.js:123:20)</div><div class="code-sessionfull-failure">✖ L&#39;élément &#39;input&#39; pour déterminer la description de la playlist est de type &#39;file&#39; in 500ms - expected &#34;contains &#39;file&#39;&#34; but got: &#34;element could not be located&#34; (525ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\create_playlist.js:127:20)</div><div class="code-sessionfull-failure">✖ L&#39;élément &#39;input&#39; ne doit accepter que les images in 500ms - expected &#34;contains &#39;image/*&#39;&#34; but got: &#34;element could not be located&#34; (536ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\create_playlist.js:133:20)</div></pre></div>
+  </div>
+  
+</div>
+              
+             
+               <div class="card">
+      <div class="card-header" id="h2">
+        <h5 class="mb-0">
+          <button class="btn btn-link" style="background-image:none">
+            Tests de chansons à la playlist
+            <span class ="float-right">
+              <a href="#" class="btn btn-sm btn-secondary disabled" role="button" style="font-size: 0.65em">skipped</a>
+            </span>
+          </button>
+        </h5>
+    </div>
+</div>
+             
+               <div class="card">
+      <div class="card-header" id="h2">
+        <h5 class="mb-0">
+          <button class="btn btn-link" style="background-image:none">
+            Tests d&#39;attributs requis dans le formulaire
+            <span class ="float-right">
+              <a href="#" class="btn btn-sm btn-secondary disabled" role="button" style="font-size: 0.65em">skipped</a>
+            </span>
+          </button>
+        </h5>
+    </div>
+</div>
+             
+               <div class="card">
+      <div class="card-header" id="h2">
+        <h5 class="mb-0">
+          <button class="btn btn-link" style="background-image:none">
+            Tests de remplissage de Formulaire
+            <span class ="float-right">
+              <a href="#" class="btn btn-sm btn-secondary disabled" role="button" style="font-size: 0.65em">skipped</a>
+            </span>
+          </button>
+        </h5>
+    </div>
+</div>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+                
+                <div id="s4" class="sessionbox">
+                   
+  <div class="sessionbox-indicator indicator-failed sessionbox-padding">
+    <div class="row">
+      <div class="col-md-1">
+        <div class="statusbadge statusbadge-failed">Failure</div>
+      </div> 
+      
+      <div class="col-md-11 separator-l">
+        <div class="row sessionbox-head">
+          <div class="col-md-8">
+             index
+          </div>
+        </div>
+        <div id="tabs-s4" class="row sessionbox-tabs">
+          <div class="col-md-12">
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab1" role="tablist">
+                <a class="nav-item nav-link active" id="nav-s4-t1-tab" data-bs-toggle="tab" href="#nav-s4-t1" role="tab" aria-controls="nav-s4-t1" aria-selected="true">Details</a>
+                <a class="nav-item nav-link" id="nav-s4-t3-tab" data-bs-toggle="tab" href="#nav-s4-t3" role="tab" aria-controls="nav-s4-t3" aria-selected="true">Raw HTTP Log</a>
+              </div>
+            </nav>
+
+            <div class="tab-content" id="nav-tab1Content">
+              <div class="tab-pane show active" id="nav-s4-t1" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="statgroup autobox">
+                      <div class="statbox autobox">
+                        <div class="label-sessionfull">Status</div>
+                        <div class="stat-sessionfull">FAILED</div>
+                      </div>
+                    </div>
+                    <div class="statgroup autobox">
+                     <div class="statbox autobox">
+                       <div class="label-sessionfull">Tests</div>
+                       <div class="stat-sessionfull">2</div>
+                     </div>
+                     <div class="statbox autobox">
+                      <div class="label-sessionfull">Failed</div>
+                      <div class="stat-sessionfull">22</div>
+                    </div>
+                    <div class="statbox autobox">
+                      <div class="label-sessionfull">Errors</div>
+                      <div class="stat-sessionfull">2</div>
+                    </div>
+                    <div class="statbox autobox">
+                      <div class="label-sessionfull">Module Path</div>
+                      <div class="stat-sessionfull">\tests\e2e\index.js</div>
+                    </div>
+                    </div>
+                    <div class="statgroup autobox">
+                      <div class="statbox autobox">
+                        <div class="label-sessionfull">Duration</div>
+                        <div class="stat-sessionfull">20.45 secs</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane raw-http-log" id="nav-s4-t3" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="raw-http-log code-sessionfull"></div>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div id="sessionfull-accordion">
+            
+                <div class="card">
+  
+  <div class="card-header" id="h2">
+    <h5 class="mb-0">
+      <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#s3ac1" aria-expanded="true" aria-controls="s3ac1">
+        Structure de la page principale
+      </button>
+    </h5>
+  </div>
+  <div id="s3ac1" class="collapse-show collapse show" aria-labelledby="s3ah1" data-bs-parent="#sessionfull-accordion">
+    <div class="card-body"><pre><div class="code-sessionfull-failure">✖ L&#39;entête existe sur la page in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (552ms)
+    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:9:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:23:12)</div><div class="code-sessionfull-failure">✖ Le menu de navigation existe dans l&#39;entête in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (549ms)
+    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:10:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:23:12)</div><div class="code-sessionfull-failure">✖ Le menu de navigation a l&#39;id &#39;nav-bar&#39; in 500ms - expected &#34;contains &#39;nav-bar&#39;&#34; but got: &#34;element could not be located&#34; (548ms)
+    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:14:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:23:12)</div><div class="code-sessionfull-failure">✖ Le menu de navigation a la classe &#39;flex-column&#39; in 500ms - expected &#34;has flex-column&#34; but got: &#34;element could not be located&#34; (535ms)
+    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:20:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:23:12)</div><div class="code-sessionfull-failure">✖ Le menu de navigation contient une liste in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (550ms)
+    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:25:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:23:12)</div><div class="code-sessionfull-failure">✖ La liste a la classe &#39;flex-column&#39; in 500ms - expected &#34;has flex-column&#34; but got: &#34;element could not be located&#34; (523ms)
+    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:29:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:23:12)</div><div class="code-sessionfull-failure">✖ Failed [equal]: (Le menu de navigation doit comporter 3 liens.) - expected &#34;3&#34; but got: &#34;0&#34; (0ms)
+    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:37:22)</div><div class="code-sessionfull-failure">✖ L&#39;élément &#39;main&#39; est présent sur la page in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (547ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:25:20)</div><div class="code-sessionfull-failure">✖ L&#39;élément &#39;main&#39; a l&#39;id &#39;main-area&#39; in 500ms - expected &#34;contains &#39;main-area&#39;&#34; but got: &#34;element could not be located&#34; (528ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:29:20)</div><div class="code-sessionfull-failure">✖ L&#39;élément &#39;main&#39; a la classe &#39;flex-column&#39; in 500ms - expected &#34;has flex-column&#34; but got: &#34;element could not be located&#34; (527ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:35:20)</div><div class="code-sessionfull-failure">✖ Failed [equal]: (Le contenu principal doit contenir 3 éléments div) - expected &#34;3&#34; but got: &#34;0&#34; (0ms)
+    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:41:22)</div><div class="code-sessionfull-failure">✖ Le pied de page existe in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (560ms)
+    at Object.validateFooter (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:73:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:47:12)</div><div class="code-sessionfull-failure">✖ L&#39;élément &#39;footer&#39; a l&#39;id &#39;playing-bar&#39; in 500ms - expected &#34;contains &#39;playing-bar&#39;&#34; but got: &#34;element could not be located&#34; (535ms)
+    at Object.validateFooter (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:74:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:47:12)</div><div class="code-sessionfull-failure">✖ Failed [equal]: (Le pied de page doit contenir 2 noms) - expected &#34;2&#34; but got: &#34;0&#34; (0ms)
+    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:81:22)</div></pre></div>
+  </div>
+  
+</div>
+              
+                <div class="card">
+  
+  <div class="card-header" id="h2">
+    <h5 class="mb-0">
+      <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#s3ac2" aria-expanded="true" aria-controls="s3ac2">
+        Tests de la barre de recherche
+      </button>
+    </h5>
+  </div>
+  <div id="s3ac2" class="collapse-show collapse show" aria-labelledby="s3ah2" data-bs-parent="#sessionfull-accordion">
+    <div class="card-body"><pre><div class="code-sessionfull-failure">✖ Un conteneur pour la barre de recherche est présent sur la page in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (553ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:52:20)</div><div class="code-sessionfull-failure">✖ La barre de recherche est un formulaire avec id &#39;search-form&#39; in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (556ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:56:20)</div><div class="code-sessionfull-failure">✖ Le formulaire a la classe &#39;flex-row&#39; in 500ms - expected &#34;has flex-row&#34; but got: &#34;element could not be located&#34; (539ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:60:20)</div><div class="code-sessionfull-failure">✖ La barre de recherche est un input avec id &#39;search-input&#39; in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (545ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:65:20)</div><div class="code-sessionfull-failure">✖ La barre de recherche est de type &#39;text&#39; in 500ms - expected &#34;contains &#39;text&#39;&#34; but got: &#34;element could not be located&#34; (528ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:69:20)</div><div class="code-sessionfull-failure">✖ La barre de recherche contient un bouton in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (540ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:75:20)</div><div class="code-sessionfull-failure">✖ Le bouton a les classes &#39;fa fa-2x fa-search&#39; in 500ms - expected &#34;has fa fa-2x fa-search&#34; but got: &#34;element could not be located&#34; (536ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:79:20)</div><div class="code-sessionfull-failure">✖ Le bouton de recherche est de type &#39;submit&#39; in 500ms - expected &#34;contains &#39;submit&#39;&#34; but got: &#34;element could not be located&#34; (537ms)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:84:20)</div></pre></div>
+  </div>
+  
+</div>
+              
+             
+               <div class="card">
+      <div class="card-header" id="h2">
+        <h5 class="mb-0">
+          <button class="btn btn-link" style="background-image:none">
+            Tests de logique de barre de recherche sans match exact
+            <span class ="float-right">
+              <a href="#" class="btn btn-sm btn-secondary disabled" role="button" style="font-size: 0.65em">skipped</a>
+            </span>
+          </button>
+        </h5>
+    </div>
+</div>
+             
+               <div class="card">
+      <div class="card-header" id="h2">
+        <h5 class="mb-0">
+          <button class="btn btn-link" style="background-image:none">
+            Tests de logique de barre de recherche avec match exact
+            <span class ="float-right">
+              <a href="#" class="btn btn-sm btn-secondary disabled" role="button" style="font-size: 0.65em">skipped</a>
+            </span>
+          </button>
+        </h5>
+    </div>
+</div>
+             
+               <div class="card">
+      <div class="card-header" id="h2">
+        <h5 class="mb-0">
+          <button class="btn btn-link" style="background-image:none">
+            Tests de la liste de playlists
+            <span class ="float-right">
+              <a href="#" class="btn btn-sm btn-secondary disabled" role="button" style="font-size: 0.65em">skipped</a>
+            </span>
+          </button>
+        </h5>
+    </div>
+</div>
+             
+               <div class="card">
+      <div class="card-header" id="h2">
+        <h5 class="mb-0">
+          <button class="btn btn-link" style="background-image:none">
+            Modification de l&#39;affichage en bas de 800px
+            <span class ="float-right">
+              <a href="#" class="btn btn-sm btn-secondary disabled" role="button" style="font-size: 0.65em">skipped</a>
+            </span>
+          </button>
+        </h5>
+    </div>
+</div>
+             
+               <div class="card">
+      <div class="card-header" id="h2">
+        <h5 class="mb-0">
+          <button class="btn btn-link" style="background-image:none">
+            Tests de la liste de chansons
+            <span class ="float-right">
+              <a href="#" class="btn btn-sm btn-secondary disabled" role="button" style="font-size: 0.65em">skipped</a>
+            </span>
+          </button>
+        </h5>
+    </div>
+</div>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+                
+          </div>
+          </div>
+         </div>
+        </section>
+      </div>
+    </div>
+
+    <section id="footer">
+      <div class="container-fluid">
+        <div class="row footerstarbg">
+          <div class="col-md-12">
+            <nav class="footer-box">
+              <div class="footer-links">
+                  <a class="cr" href="https://nightwatchjs.org" target="_blank">© 2022 Nightwatch.js</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/bootstrap.min.js"></script>
+  </body>

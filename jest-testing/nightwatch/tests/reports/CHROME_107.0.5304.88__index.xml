@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="22"
+            tests="2">
+
+  <testsuite name="index"
+    errors="2" failures="22" hostname="" id="" package="index" skipped="5"
+    tests="2" time="20.45" timestamp="">
+  
+    <testcase name="Structure de la page principale" classname="index" time="11.16" assertions="14">  <failure message="L&#39;entête existe sur la page in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (552ms)">    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:9:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:23:12)</failure>
+
+      <failure message="Le menu de navigation existe dans l&#39;entête in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (549ms)">    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:10:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:23:12)</failure>
+
+      <failure message="Le menu de navigation a l&#39;id &#39;nav-bar&#39; in 500ms - expected &#34;contains &#39;nav-bar&#39;&#34; but got: &#34;element could not be located&#34; (548ms)">    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:14:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:23:12)</failure>
+
+      <failure message="Le menu de navigation a la classe &#39;flex-column&#39; in 500ms - expected &#34;has flex-column&#34; but got: &#34;element could not be located&#34; (535ms)">    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:20:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:23:12)</failure>
+
+      <failure message="Le menu de navigation contient une liste in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (550ms)">    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:25:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:23:12)</failure>
+
+      <failure message="La liste a la classe &#39;flex-column&#39; in 500ms - expected &#34;has flex-column&#34; but got: &#34;element could not be located&#34; (523ms)">    at Object.validateHeader (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:29:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:23:12)</failure>
+
+      <failure message="Failed [equal]: (Le menu de navigation doit comporter 3 liens.) - expected &#34;3&#34; but got: &#34;0&#34; (0ms)">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:37:22)</failure>
+
+      <failure message="L&#39;élément &#39;main&#39; est présent sur la page in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (547ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:25:20)</failure>
+
+      <failure message="L&#39;élément &#39;main&#39; a l&#39;id &#39;main-area&#39; in 500ms - expected &#34;contains &#39;main-area&#39;&#34; but got: &#34;element could not be located&#34; (528ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:29:20)</failure>
+
+      <failure message="L&#39;élément &#39;main&#39; a la classe &#39;flex-column&#39; in 500ms - expected &#34;has flex-column&#34; but got: &#34;element could not be located&#34; (527ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:35:20)</failure>
+
+      <failure message="Failed [equal]: (Le contenu principal doit contenir 3 éléments div) - expected &#34;3&#34; but got: &#34;0&#34; (0ms)">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:41:22)</failure>
+
+      <failure message="Le pied de page existe in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (560ms)">    at Object.validateFooter (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:73:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:47:12)</failure>
+
+      <failure message="L&#39;élément &#39;footer&#39; a l&#39;id &#39;playing-bar&#39; in 500ms - expected &#34;contains &#39;playing-bar&#39;&#34; but got: &#34;element could not be located&#34; (535ms)">    at Object.validateFooter (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:74:20)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:47:12)</failure>
+
+      <failure message="Failed [equal]: (Le pied de page doit contenir 2 noms) - expected &#34;2&#34; but got: &#34;0&#34; (0ms)">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:81:22)</failure>
+
+    
+    <error message="Failed [equal]: (Le pied de page doit contenir 2 noms) - expected [0;32m&#34;2&#34;[0m but got: [0;31m&#34;0&#34;[0m [0;90m(0ms)[0m" type="error"><![CDATA[
+        at NightwatchAPI.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\shared.js:81:22)
+    ]]></error>
+    
+    </testcase>
+  
+    <testcase name="Tests de la barre de recherche" classname="index" time="9.287" assertions="8">  <failure message="Un conteneur pour la barre de recherche est présent sur la page in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (553ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:52:20)</failure>
+
+      <failure message="La barre de recherche est un formulaire avec id &#39;search-form&#39; in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (556ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:56:20)</failure>
+
+      <failure message="Le formulaire a la classe &#39;flex-row&#39; in 500ms - expected &#34;has flex-row&#34; but got: &#34;element could not be located&#34; (539ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:60:20)</failure>
+
+      <failure message="La barre de recherche est un input avec id &#39;search-input&#39; in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (545ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:65:20)</failure>
+
+      <failure message="La barre de recherche est de type &#39;text&#39; in 500ms - expected &#34;contains &#39;text&#39;&#34; but got: &#34;element could not be located&#34; (528ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:69:20)</failure>
+
+      <failure message="La barre de recherche contient un bouton in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (540ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:75:20)</failure>
+
+      <failure message="Le bouton a les classes &#39;fa fa-2x fa-search&#39; in 500ms - expected &#34;has fa fa-2x fa-search&#34; but got: &#34;element could not be located&#34; (536ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:79:20)</failure>
+
+      <failure message="Le bouton de recherche est de type &#39;submit&#39; in 500ms - expected &#34;contains &#39;submit&#39;&#34; but got: &#34;element could not be located&#34; (537ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:84:20)</failure>
+
+    
+    <error message="Le bouton de recherche est de type &#39;submit&#39; in 500ms - expected [0;32m&#34;contains &#39;submit&#39;&#34;[0m but got: [0;31m&#34;element could not be located&#34;[0m [0;90m(537ms)[0m" type="error"><![CDATA[
+    Error
+    at Proxy.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\node_modules\nightwatch\lib\api\index.js:147:30)
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:84:20)
+    at Context.call (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\node_modules\nightwatch\lib\testsuite\context.js:475:35)
+    at TestCase.run (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\node_modules\nightwatch\lib\testsuite\testcase.js:58:31)
+    at Runnable.__runFn (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\node_modules\nightwatch\lib\testsuite\index.js:712:80)
+    at Runnable.run (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\node_modules\nightwatch\lib\testsuite\runnable.js:126:21)
+    at TestSuite.executeRunnable (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\node_modules\nightwatch\lib\testsuite\index.js:820:49)
+    at TestSuite.handleRunnable (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\node_modules\nightwatch\lib\testsuite\index.js:835:33)
+    at C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\node_modules\nightwatch\lib\testsuite\index.js:712:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       ✖ TypeError
+   Cannot read properties of null (reading &#39;playlist&#39;)
+
+    Error location:
+    C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\playlist.js:
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     16 |       [],
+     17 |       (result) =&gt; {
+     18 |         EXPECTED_PLAYLIST = JSON.parse(result.value.playlist).find( 
+     19 |           (x) =&gt; x.id === &#34;1&#34;
+     20 |         );
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    Stack Trace :
+    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\playlist.js:18:53)
+    at Function.makePromise (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\node_modules\nightwatch\lib\utils\index.js:184:28)
+    at C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\node_modules\nightwatch\lib\core\client.js:276:47
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+ ✖ TypeError
+   Cannot read properties of null (reading &#39;playlist&#39;)
+
+    Error location:
+    C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     10 |       [],
+     11 |       (result) =&gt; {
+     12 |         EXPECTED_PLAYLISTS = JSON.parse(result.value.playlist); 
+     13 |         EXPECTED_SONGS = JSON.parse(result.value.songs);
+     14 |       }
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    Stack Trace :
+    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:12:54)
+    at Function.makePromise (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\node_modules\nightwatch\lib\utils\index.js:184:28)
+    at C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\node_modules\nightwatch\lib\core\client.js:276:47
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+ ✖ TypeError
+   Cannot read properties of null (reading &#39;playlist&#39;)
+
+    Error location:
+    C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     10 |       [],
+     11 |       (result) =&gt; {
+     12 |         EXPECTED_PLAYLISTS = JSON.parse(result.value.playlist); 
+     13 |         EXPECTED_SONGS = JSON.parse(result.value.songs);
+     14 |       }
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    Stack Trace :
+    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\tests\e2e\index.js:12:54)
+    at Function.makePromise (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\node_modules\nightwatch\lib\utils\index.js:184:28)
+    at C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp3-2154216_2146612\nightwatch\node_modules\nightwatch\lib\core\client.js:276:47
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+    </system-err>
+  
+
+    
+
+  
+    
+    <testcase
+      name="Tests de logique de barre de recherche sans match exact" classname="index">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Tests de logique de barre de recherche avec match exact" classname="index">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Tests de la liste de playlists" classname="index">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Modification de l&#39;affichage en bas de 800px" classname="index">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Tests de la liste de chansons" classname="index">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
