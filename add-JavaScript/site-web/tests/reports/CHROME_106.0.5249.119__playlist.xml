@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="4"
+            tests="3">
+
+  <testsuite name="playlist"
+    errors="1" failures="4" hostname="" id="" package="playlist" skipped="4"
+    tests="3" time="2.811" timestamp="">
+  
+    <testcase name="Structure de la page" classname="playlist" time="0.6760" assertions="24">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Tests de l&#39;entête du contenu principal" classname="playlist" time="0.3240" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Tests du contenu principal de la page" classname="playlist" time="1.811" assertions="6">
+
+    
+
+      <failure message="Il doit y avoir une section &#39;div&#39; à l&#39;intérieur de l&#39;élément &#39;section&#39; in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (550ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp2-2154216_2146612\site-web\tests\e2e\playlist.js:113:20)</failure>
+
+      <failure message="L&#39;élément &#39;div&#39; doit avoir les classes &#39;song-item flex-row&#39; in 500ms - expected &#34;has song-item flex-row&#34; but got: &#34;element could not be located&#34; (542ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp2-2154216_2146612\site-web\tests\e2e\playlist.js:117:20)</failure>
+
+      <failure message="L&#39;élément &#39;div&#39; doit contenir un élément &#39;span&#39; suivi de trois élément &#39;p&#39; puis un élément &#39;i&#39; in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (542ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp2-2154216_2146612\site-web\tests\e2e\playlist.js:122:20)</failure>
+
+      <failure message="Failed [equal]: (Il doit y avoir trois ensembles d&#39;éléments &#39;span&#39;, &#39;p&#39;, &#39;p&#39;, &#39;p&#39; puis &#39;i&#39; dans l&#39;élément section) - expected &#34;3&#34; but got: &#34;0&#34; (0ms)">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp2-2154216_2146612\site-web\tests\e2e\playlist.js:130:24)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       ✖ SyntaxError
+   Unexpected token u in JSON at position 0
+
+    Error location:
+    C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp2-2154216_2146612\site-web\tests\e2e\playlist.js:
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     16 |       [],
+     17 |       (result) =&gt; {
+     18 |         EXPECTED_PLAYLIST = JSON.parse(result.value.playlist).find( 
+     19 |           (x) =&gt; x.id === &#34;1&#34;
+     20 |         );
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    Stack Trace :
+    at JSON.parse (&lt;anonymous&gt;)
+    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp2-2154216_2146612\site-web\tests\e2e\playlist.js:18:34)
+    at Function.makePromise (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp2-2154216_2146612\site-web\node_modules\nightwatch\lib\utils\index.js:184:28)
+    at C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp2-2154216_2146612\site-web\node_modules\nightwatch\lib\core\client.js:276:47
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+    </system-err>
+  
+
+    
+
+  
+    
+    <testcase
+      name="Tests de la barre de lecture de musique" classname="playlist">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="validation de la playlist #0" classname="playlist">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="validation de la playlist #1" classname="playlist">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="validation de la playlist #2" classname="playlist">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

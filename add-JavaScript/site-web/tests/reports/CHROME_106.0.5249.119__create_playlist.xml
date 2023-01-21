@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="5">
+
+  <testsuite name="create_playlist"
+    errors="0" failures="0" hostname="" id="" package="create_playlist" skipped="0"
+    tests="5" time="2.458" timestamp="">
+  
+    <testcase name="Structure de la page Créer une Playlist" classname="create_playlist" time="0.7080" assertions="26">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Tests de l&#39;information générale du playlist" classname="create_playlist" time="0.4780" assertions="16">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Tests de chansons à la playlist" classname="create_playlist" time="0.4200" assertions="21">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Tests d&#39;attributs requis dans le formulaire" classname="create_playlist" time="0.1000" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Tests de remplissage de Formulaire" classname="create_playlist" time="0.7520" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       ✖ SyntaxError
+   Unexpected token u in JSON at position 0
+
+    Error location:
+    C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp2-2154216_2146612\site-web\tests\e2e\playlist.js:
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     16 |       [],
+     17 |       (result) =&gt; {
+     18 |         EXPECTED_PLAYLIST = JSON.parse(result.value.playlist).find( 
+     19 |           (x) =&gt; x.id === &#34;1&#34;
+     20 |         );
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    Stack Trace :
+    at JSON.parse (&lt;anonymous&gt;)
+    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp2-2154216_2146612\site-web\tests\e2e\playlist.js:18:34)
+    at Function.makePromise (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp2-2154216_2146612\site-web\node_modules\nightwatch\lib\utils\index.js:184:28)
+    at C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp2-2154216_2146612\site-web\node_modules\nightwatch\lib\core\client.js:276:47
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
