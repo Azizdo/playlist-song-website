@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="20"
+            tests="4">
+
+  <testsuite name="playlist"
+    errors="0" failures="20" hostname="" id="" package="playlist" skipped="0"
+    tests="4" time="11.74" timestamp="">
+  
+    <testcase name="Structure de la page" classname="playlist" time="0.6020" assertions="24">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Tests de l&#39;entête du contenu principal" classname="playlist" time="0.3200" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Tests du contenu principal de la page" classname="playlist" time="0.3220" assertions="15">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Tests de la barre de lecture de musique" classname="playlist" time="10.50" assertions="23">
+
+    
+
+    
+
+      <failure message="Un élément section est présent dans l&#39;élément &#39;div&#39; précédent in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (548ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp1-2154216_2146612\site-web\tests\e2e\playlist.js:217:20)</failure>
+
+      <failure message="L&#39;élément &#39;section&#39; a la classe &#39;flex-row&#39; in 500ms - expected &#34;has flex-row&#34; but got: &#34;element could not be located&#34; (533ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp1-2154216_2146612\site-web\tests\e2e\playlist.js:221:20)</failure>
+
+      <failure message="Failed [equal]: (L&#39;élément &#39;section&#39; contient 5 boutons) - expected &#34;5&#34; but got: &#34;0&#34; (0ms)">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp1-2154216_2146612\site-web\tests\e2e\playlist.js:230:24)</failure>
+
+      <failure message="Un bouton avec l&#39;id &#39;previous&#39; doit être présent dans l&#39;élément &#39;section&#39; in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (532ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp1-2154216_2146612\site-web\tests\e2e\playlist.js:237:20)</failure>
+
+      <failure message="Le bouton avec l&#39;id &#39;previous&#39; doit avoir les classes &#39;control-btn fa fa-2x fa-arrow-left&#39; in 500ms - expected &#34;has control-btn fa fa-2x fa-arrow-left&#34; but got: &#34;element could not be located&#34; (526ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp1-2154216_2146612\site-web\tests\e2e\playlist.js:241:20)</failure>
+
+      <failure message="Un bouton avec l&#39;id &#39;play&#39; doit être présent dans l&#39;élément &#39;section&#39; in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (551ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp1-2154216_2146612\site-web\tests\e2e\playlist.js:246:20)</failure>
+
+      <failure message="Le bouton avec l&#39;id &#39;play&#39; doit avoir les classes &#39;control-btn fa fa-2x fa-arrow-play&#39; in 500ms - expected &#34;has control-btn fa fa-2x fa-play&#34; but got: &#34;element could not be located&#34; (533ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp1-2154216_2146612\site-web\tests\e2e\playlist.js:250:20)</failure>
+
+      <failure message="Un bouton avec l&#39;id &#39;next&#39; doit être présent dans l&#39;élément &#39;section&#39; in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (562ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp1-2154216_2146612\site-web\tests\e2e\playlist.js:255:20)</failure>
+
+      <failure message="Le bouton avec l&#39;id &#39;next&#39; doit avoir les classes &#39;control-btn fa fa-2x fa-arrow-right&#39; in 500ms - expected &#34;has control-btn fa fa-2x fa-arrow-right&#34; but got: &#34;element could not be located&#34; (545ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp1-2154216_2146612\site-web\tests\e2e\playlist.js:259:20)</failure>
+
+      <failure message="Un bouton avec l&#39;id &#39;shuffle&#39; doit être présent dans l&#39;élément &#39;section&#39; in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (560ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp1-2154216_2146612\site-web\tests\e2e\playlist.js:264:20)</failure>
+
+      <failure message="Le bouton avec l&#39;id &#39;shuffle&#39; doit avoir les classes &#39;control-btn fa fa-2x fa-shuffle&#39; in 500ms - expected &#34;has control-btn fa fa-2x fa-shuffle&#34; but got: &#34;element could not be located&#34; (523ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp1-2154216_2146612\site-web\tests\e2e\playlist.js:268:20)</failure>
+
+      <failure message="Un bouton avec l&#39;id &#39;mute&#39; doit être présent dans l&#39;élément &#39;section&#39; in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (540ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp1-2154216_2146612\site-web\tests\e2e\playlist.js:273:20)</failure>
+
+      <failure message="Le bouton avec l&#39;id &#39;mute&#39; doit avoir les classes &#39;control-btn fa fa-2x fa-volume-high&#39; in 500ms - expected &#34;has control-btn fa fa-2x fa-volume-high&#34; but got: &#34;element could not be located&#34; (523ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp1-2154216_2146612\site-web\tests\e2e\playlist.js:277:20)</failure>
+
+      <failure message="Un élément &#39;section&#39; avec l&#39;id &#39;timeline-container&#39; suit le premier élément &#39;section&#39; in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (548ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp1-2154216_2146612\site-web\tests\e2e\playlist.js:282:20)</failure>
+
+      <failure message="L&#39;élément &#39;section&#39; doit avoir comme classe &#39;flex-row&#39; in 500ms - expected &#34;has flex-row&#34; but got: &#34;element could not be located&#34; (535ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp1-2154216_2146612\site-web\tests\e2e\playlist.js:286:20)</failure>
+
+      <failure message="Un élément &#39;span&#39; avec l&#39;id &#39;timeline-current&#39; doit être présent à l&#39;intérieur de la section in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (539ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp1-2154216_2146612\site-web\tests\e2e\playlist.js:291:20)</failure>
+
+      <failure message="Un élément &#39;input&#39; avec l&#39;id &#39;timeline&#39; doit suivre l&#39;élément précédant in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (546ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp1-2154216_2146612\site-web\tests\e2e\playlist.js:295:20)</failure>
+
+      <failure message="Un élément &#39;span&#39; avec l&#39;id &#39;timeline-end&#39; doit suivre l&#39;élément précédant in 500ms - expected &#34;is present&#34; but got: &#34;not present&#34; (525ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp1-2154216_2146612\site-web\tests\e2e\playlist.js:300:20)</failure>
+
+      <failure message="Le temps initial est 0:00 in 500ms - expected &#34;equals &#39;0:00&#39;&#34; but got: &#34;element could not be located&#34; (524ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp1-2154216_2146612\site-web\tests\e2e\playlist.js:305:20)</failure>
+
+      <failure message="Le temps final est 5:00 in 500ms - expected &#34;equals &#39;5:00&#39;&#34; but got: &#34;element could not be located&#34; (524ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\AZUZ\Documents\session3\LOG2440\TP\tp1-2154216_2146612\site-web\tests\e2e\playlist.js:310:20)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
